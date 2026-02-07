@@ -5,6 +5,7 @@ recording.mov
 # Reference exports (frames, etc.)
 /refs/
 /extract_frames.swift
+brand_*.png
 
 # Old scratch files from earlier attempt (not used by the mirrored Nuxt build)
 /styles.css
