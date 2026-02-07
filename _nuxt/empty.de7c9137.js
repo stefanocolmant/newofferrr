@@ -1,0 +1,1 @@
+import{m as o}from"./entry.a1695e90.js";import{z as _,F as s,I as n,C as t}from"./swiper-vue.8dc4d65b.js";const c={class:"empty-content"},a=t("div",{class:"empty-top"},null,-1),m=t("div",{class:"empty-bottom"},null,-1),u={__name:"empty",setup(p){return(l,r)=>{const e=o;return _(),s("div",c,[a,n(e),m])}}};export{u as default};

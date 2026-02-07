@@ -1,0 +1,18 @@
+# Large/local reference media
+recording.mov
+*.mov
+
+# Reference exports (frames, etc.)
+/refs/
+/extract_frames.swift
+
+# Old scratch files from earlier attempt (not used by the mirrored Nuxt build)
+/styles.css
+/script.js
+
+# OS / editor
+.DS_Store
+
+# Logs / caches
+*.log
+__pycache__/
