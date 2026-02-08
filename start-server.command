@@ -5,5 +5,6 @@ set -euo pipefail
 # Keep this Terminal window open while browsing the site.
 
 cd "$(dirname "$0")"
-python3 -m http.server 8080 --bind 127.0.0.1
-
+# Bind to all interfaces so you can open it from this Mac (localhost)
+# and from other devices on the same Wi-Fi (use this Mac's LAN IP).
+python3 -m http.server 8080 --bind 0.0.0.0

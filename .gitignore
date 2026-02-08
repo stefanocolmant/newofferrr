@@ -16,4 +16,5 @@ brand_*.png
 
 # Logs / caches
 *.log
+*.pid
 __pycache__/
